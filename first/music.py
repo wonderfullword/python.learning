@@ -26,3 +26,8 @@ for key,values in songsdict.items():
         song.append(key)
         song.append(values)
 print(song)
+dict2={}
+for key,values in songsdict.items():
+    if " " not in key:
+        dict2[key]=values
+print(dict2)
