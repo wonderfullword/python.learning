@@ -21,3 +21,8 @@ for key, values in songsdict.items():
     print(key, values)
     d.append(values)
     print(sum(d))
+for key,values in songsdict.items():
+    if values >=5:
+        song.append(key)
+        song.append(values)
+print(song)
